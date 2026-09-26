@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Build output
+.next/
+dist/
+build/
+target/
+.turbo/
+
+# Model weights / binaries
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.h5
+
+# Large media / archives
+*.mp4
+*.zip
+
+# Secrets
+.env
+.env.*
+
+# OS / logs / local DBs
+.DS_Store
+*.log
+*.db
+*.sqlite3
